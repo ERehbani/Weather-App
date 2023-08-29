@@ -1,3 +1,12 @@
+# App de Clima en React Native
+
+App en React Native utilizando la API de Open Weather para mostrar el clima de cada ciudad aplicando su nombre y país correspondiente
+
+<img src='./img/687shots_so.jpg'> </img>
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started

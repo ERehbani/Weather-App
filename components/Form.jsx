@@ -71,7 +71,7 @@ function Form({search, setSearch, setConsult}) {
             <Picker.Item label="Estados Unidos" value="US" />
             <Picker.Item label="Argentina" value="AR" />
             <Picker.Item label="México" value="MX" />
-            <Picker.Item label="Inglaterra" value="GB" />
+            <Picker.Item label="Gran Bretaña" value="GB" />
             <Picker.Item label="Colombia" value="CO" />
             <Picker.Item label="Costa Rica" value="CR" />
             <Picker.Item label="España" value="ES" />

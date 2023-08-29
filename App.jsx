@@ -44,18 +44,18 @@ const App = () => {
           showAlert();
         }
       }
+      const kelvin = 273.15;
+      const {main} = result;
+      const actual = main.temp - kelvin;
+      console.log(actual);
+      if (actual < 10) {
+        setbgColor('rgb( 105, 108, 149 )');
+      } else if (actual >= 10 && actual < 25) {
+        setbgColor('rgb( 71, 149, 212)');
+      } else {
+        setbgColor('rgb( 178, 28, 61 )');
+      }
     };
-    const kelvin = 273.15;
-    const {main} = result;
-    const actual = main.temp - kelvin;
-    console.log(actual);
-    if (actual < 10) {
-      setbgColor('rgb( 105, 108, 149 )');
-    } else if (actual >= 10 && actual < 25) {
-      setbgColor('rgb( 71, 149, 212)');
-    } else {
-      setbgColor('rgb( 178, 28, 61 )');
-    }
     consultWeather();
   }, [consult]);
 
